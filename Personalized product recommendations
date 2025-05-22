@@ -1,0 +1,12 @@
+Customer Experience: Personalized product recommendations
+-HLD,Machine Learning Models,Training Data,End-To-End Process
+-Traditional ML Solution
+-Agentic AI(MCP,A2A) With LLM's+RAG,With Out LLMs+RAG Solution
+-Data Sources - Telco,Histrocial Data,eg:True Caller,Real Time
+-Support for Multiple Countries,Geo specific rules
+-Features Store:
+-Mobile Apps,UI,Edge Devices,Campaign (real-time/batch)
+-Channels:Voice,SMS,WhatsApp,gRBM(RCS Device Based) etc
+-Training Strategies:
+-Training Data Set:More than 5 billion per country,like we have 100+countries should be rolled out.
+
