@@ -1,4 +1,4 @@
-Enterprise Information Hub-Data Platform As a Service
+![architecture-diagram](https://github.com/user-attachments/assets/67525198-e34f-4c8e-8205-75f884d5fff4)Enterprise Information Hub-Data Platform As a Service
 - AI Servcie & AI Analytics Engine
 Tracking failed orders across disconnected systems is tough. It requires navigating multiple UIs, involving people from different spaces, and lacks centralized knowledge — leading to delayed support, escalations, and low customer satisfaction.
 
@@ -136,6 +136,7 @@ Would you like me to elaborate on any specific component of this design or provi
 Architecture Diagram:
 
 
+
 I'll create a comprehensive architecture diagram for the proposed failed order tracking solution.
 
 Here's the complete architecture diagram for the Failed Order Tracking System. Let me walk you through each layer and component:
@@ -184,9 +185,6 @@ Would you like me to explain any particular component in more detail, or would y
 
 
 
-
-
- 
 # AI Services and Analytics Engine: Components and Technical Stack
 
 I'll provide an overview of the key components, technical stack, and data structures & algorithms (DSA) required for building a comprehensive AI services and analytics engine.
