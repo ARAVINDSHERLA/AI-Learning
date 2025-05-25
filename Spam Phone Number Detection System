@@ -1,15 +1,5 @@
 Security & Compliance:(AI,ML Solution,Block Chain)-Google
 Phone Number Spam Detection System 
--HLD,Machine Learning Models,Training Data,End-To-End Process
--Traditional ML Solution
--Agentic AI(MCP,A2A) With LLM's+RAG,With Out LLMs+RAG Solution
--Data Sources - Telco,Histrocial Data,eg:True Caller,Real Time
--Support for Multiple Countries,Geo specific rules
--Features Store:
--Mobile Apps,UI,Edge Devices,Campaign (real-time/batch)
--Channels:Voice,SMS,WhatsApp,gRBM(RCS Device Based) etc
--Training Strategies:
--Training Data Set:More than 5 billion per country,like we have 100+countries should be rolled out.
 # Design a solution for the Spam Detection System in telecom industry like voice,sms,wahtsapp,rcs.etc. using AI and Block Chain.
 - Cover all the features and functionalities,Usecases,Layers,LLD ,HLD,DSA(Data strcutures and algorithms,ml models and algorithms).
 - How to train a massive dataset in machine learning models ,should be completed fast,retraining frequently every 1 hr or new data or incremental dataset will come ,this is to identify phone number is spam or not ,like we have multiple countries each have 2 billion of data set. 
