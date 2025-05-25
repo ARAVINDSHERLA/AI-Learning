@@ -1,0 +1,66 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="22" font-weight="bold" text-anchor="middle">Model Performance Improvement with Country-Specific Fine-Tuning</text>
+  
+  <!-- Legend -->
+  <rect x="550" y="80" width="20" height="20" fill="#8BB7F0"/>
+  <text x="580" y="95" font-family="Arial" font-size="14" text-anchor="start">Base Model</text>
+  
+  <rect x="550" y="110" width="20" height="20" fill="#FF9A76"/>
+  <text x="580" y="125" font-family="Arial" font-size="14" text-anchor="start">Fine-tuned Model</text>
+  
+  <!-- Axes -->
+  <line x1="100" y1="400" x2="700" y2="400" stroke="#333" stroke-width="2"/>
+  <line x1="100" y1="400" x2="100" y2="100" stroke="#333" stroke-width="2"/>
+  
+  <!-- X-axis labels -->
+  <text x="200" y="430" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">India</text>
+  <text x="400" y="430" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">United States</text>
+  <text x="600" y="430" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Brazil</text>
+  
+  <!-- Y-axis labels -->
+  <text x="95" y="400" font-family="Arial" font-size="12" text-anchor="end">0%</text>
+  <text x="95" y="340" font-family="Arial" font-size="12" text-anchor="end">20%</text>
+  <text x="95" y="280" font-family="Arial" font-size="12" text-anchor="end">40%</text>
+  <text x="95" y="220" font-family="Arial" font-size="12" text-anchor="end">60%</text>
+  <text x="95" y="160" font-family="Arial" font-size="12" text-anchor="end">80%</text>
+  <text x="95" y="100" font-family="Arial" font-size="12" text-anchor="end">100%</text>
+  
+  <!-- Y-axis title -->
+  <text x="50" y="250" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" transform="rotate(-90, 50, 250)">Performance (%)</text>
+  
+  <!-- India Bars -->
+  <!-- Base model -->
+  <rect x="160" y="220" width="40" height="180" fill="#8BB7F0"/>
+  <text x="180" y="215" font-family="Arial" font-size="12" text-anchor="middle">82%</text>
+  
+  <!-- Fine-tuned model -->
+  <rect x="210" y="130" width="40" height="270" fill="#FF9A76"/>
+  <text x="230" y="125" font-family="Arial" font-size="12" text-anchor="middle">93%</text>
+  
+  <!-- US Bars -->
+  <!-- Base model -->
+  <rect x="360" y="200" width="40" height="200" fill="#8BB7F0"/>
+  <text x="380" y="195" font-family="Arial" font-size="12" text-anchor="middle">85%</text>
+  
+  <!-- Fine-tuned model -->
+  <rect x="410" y="110" width="40" height="290" fill="#FF9A76"/>
+  <text x="430" y="105" font-family="Arial" font-size="12" text-anchor="middle">95%</text>
+  
+  <!-- Brazil Bars -->
+  <!-- Base model -->
+  <rect x="560" y="240" width="40" height="160" fill="#8BB7F0"/>
+  <text x="580" y="235" font-family="Arial" font-size="12" text-anchor="middle">79%</text>
+  
+  <!-- Fine-tuned model -->
+  <rect x="610" y="140" width="40" height="260" fill="#FF9A76"/>
+  <text x="630" y="135" font-family="Arial" font-size="12" text-anchor="middle">91%</text>
+  
+  <!-- Performance metrics labels -->
+  <text x="200" y="465" font-family="Arial" font-size="12" text-anchor="middle">+11% improvement</text>
+  <text x="400" y="465" font-family="Arial" font-size="12" text-anchor="middle">+10% improvement</text>
+  <text x="600" y="465" font-family="Arial" font-size="12" text-anchor="middle">+12% improvement</text>
+</svg>

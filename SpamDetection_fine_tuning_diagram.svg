@@ -1,0 +1,53 @@
+<svg viewBox="0 0 800 560" xmlns="http://www.w3.org/2000/svg">
+  <!-- Global Base Model Training -->
+  <rect x="300" y="20" width="200" height="80" rx="5" fill="#E8F4FA" stroke="#2C82C9" stroke-width="2"/>
+  <text x="400" y="65" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Global Base Model</text>
+  <text x="400" y="85" text-anchor="middle" font-family="Arial" font-size="12">Trained on multi-country data</text>
+  
+  <!-- Arrow down -->
+  <path d="M400 100 L400 140" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Fine-tuning box -->
+  <rect x="150" y="140" width="500" height="200" rx="5" fill="#F9F9F9" stroke="#888" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="400" y="165" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Country-Specific Fine-Tuning</text>
+  
+  <!-- Country-specific models -->
+  <rect x="170" y="190" width="120" height="120" rx="5" fill="#FFE9E9" stroke="#D64541" stroke-width="2"/>
+  <text x="230" y="220" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">India (IN)</text>
+  <text x="230" y="240" text-anchor="middle" font-family="Arial" font-size="12">• Local spam patterns</text>
+  <text x="230" y="260" text-anchor="middle" font-family="Arial" font-size="12">• Hindi text features</text>
+  <text x="230" y="280" text-anchor="middle" font-family="Arial" font-size="12">• TRAI regulations</text>
+  
+  <rect x="310" y="190" width="120" height="120" rx="5" fill="#E4F1FE" stroke="#22A7F0" stroke-width="2"/>
+  <text x="370" y="220" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">USA (US)</text>
+  <text x="370" y="240" text-anchor="middle" font-family="Arial" font-size="12">• Robocall patterns</text>
+  <text x="370" y="260" text-anchor="middle" font-family="Arial" font-size="12">• TCPA compliance</text>
+  <text x="370" y="280" text-anchor="middle" font-family="Arial" font-size="12">• Area code signals</text>
+  
+  <rect x="450" y="190" width="120" height="120" rx="5" fill="#EBFFEB" stroke="#26A65B" stroke-width="2"/>
+  <text x="510" y="220" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">Brazil (BR)</text>
+  <text x="510" y="240" text-anchor="middle" font-family="Arial" font-size="12">• Portuguese text</text>
+  <text x="510" y="260" text-anchor="middle" font-family="Arial" font-size="12">• LGPD compliance</text>
+  <text x="510" y="280" text-anchor="middle" font-family="Arial" font-size="12">• Local patterns</text>
+  
+  <!-- Arrow down -->
+  <path d="M400 340 L400 380" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Rule application layer -->
+  <rect x="150" y="380" width="500" height="80" rx="5" fill="#FFF8E8" stroke="#F5AB35" stroke-width="2"/>
+  <text x="400" y="420" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Country-Specific Rule Application Layer</text>
+  
+  <!-- Arrow down -->
+  <path d="M400 460 L400 500" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Deployed models -->
+  <rect x="230" y="500" width="340" height="40" rx="5" fill="#E8F8F5" stroke="#1BBC9B" stroke-width="2"/>
+  <text x="400" y="525" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Deployed Country-Specific Models</text>
+  
+  <!-- Definitions for markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555"/>
+    </marker>
+  </defs>
+</svg>
