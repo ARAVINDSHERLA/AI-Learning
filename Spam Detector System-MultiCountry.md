@@ -1399,7 +1399,7 @@ def train_base_model(global_dataset):
 ### 2. Country-Specific Fine-Tuning
 
 For each country, we then fine-tune the base model using country-specific datasets and features:
-
+SpamDetection_fine_tuning_diagram.svg
 
 ## Sample Data Illustration
 
@@ -1477,6 +1477,8 @@ Let's look at how specific phone numbers might be processed differently by count
 ]
 
 ## Country-Specific Model Performance Comparison
+
+SpamDetection_performance_comparison.svg
 
 Here's how fine-tuning improves performance in each country:
 
@@ -1614,8 +1616,20 @@ Q: new data comes every 30mins how to retrain the models..explain usecases and a
 Building on our country-specific spam detection models, let's establish a production-grade retraining pipeline that can handle new data arriving every 30 minutes across our global phone number database.
 
 ## Retraining Architecture Overview
+SpamDetection_retraining_architecture.svg
 
 ## Production Retraining Strategies
+
+| Retraining Strategy | Trigger Mechanism | Implementation | Use Cases | Processing Timeline |
+|---------------------|-------------------|----------------|-----------|---------------------|
+| **Hot Fixes** | Urgent security breach, critical false negatives | Rule-based updates, bypass full retraining | Major spam campaign detection, zero-day vulnerabilities | Minutes (Real-time) |
+| **Incremental Updates** | Drift detection, error rate increase | Online learning on new data batches | Evolving spam patterns, regional trend shifts | Hours (Every 4-6 hours) |
+| **Scheduled Retraining** | Time-based triggers | Full model retraining with all data | Regular refreshes, incorporating all feedback | Daily or Weekly |
+| **Country-Specific Retraining** | Country-level performance drop | Target only affected country models | Regional regulatory changes, localized campaigns | Based on country needs |
+| **Feature-Based Retraining** | New feature introduction | Retrain only affected model components | New data sources, enhanced detection capabilities | As needed |
+| **Champion-Challenger** | Continuous evaluation | Train variants in parallel with production model | Testing new architectures, hyperparameter tuning | Continuous |
+
+
 
 ## Retraining Data Pipeline Implementation
 
